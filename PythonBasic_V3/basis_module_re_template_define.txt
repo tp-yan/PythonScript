@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+
+[name = "Magus Lie Hetland"]
+[email = "magus@foo.bar"]
+[language = "python"]

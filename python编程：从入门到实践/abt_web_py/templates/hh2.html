@@ -1,0 +1,14 @@
+$def with(result)
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+    <h1>POST</h1>
+    <ul>
+        $ for l in result:
+            <li>$l.get("id")   $l.get("name")</li>
+    </ul>
+</body>
+</html>

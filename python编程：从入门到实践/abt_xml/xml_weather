@@ -1,0 +1,39 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2018-03-19T04:13:41Z" yahoo:lang="en-US">
+    <results>
+        <channel>
+            <yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="mi" pressure="in" speed="mph" temperature="F"/>
+            <title>Yahoo! Weather - Beijing, Beijing, CN</title>
+            <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2151330/</link>
+            <description>Yahoo! Weather for Beijing, Beijing, CN</description>
+            <language>en-us</language>
+            <lastBuildDate>Mon, 19 Mar 2018 12:13 PM CST</lastBuildDate>
+            <ttl>60</ttl>
+            <yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="Beijing" country="China" region=" Beijing"/>
+            <yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="52" direction="50" speed="14"/>
+            <yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="29" pressure="1022.0" rising="0" visibility="16.1"/>
+            <yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="6:19 am" sunset="6:26 pm"/>
+            <image>
+                <title>Yahoo! Weather</title>
+                <width>142</width>
+                <height>18</height>
+                <link>http://weather.yahoo.com</link>
+                <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+              </image>
+              <item>
+                <title>Conditions for Beijing, Beijing, CN at 11:00 AM CST</title>
+                <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">39.90601</geo:lat>
+                <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">116.387909</geo:long>
+                <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2151330/</link>
+                <pubDate>Mon, 19 Mar 2018 11:00 AM CST</pubDate>
+                <yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="Mon, 19 Mar 2018 11:00 AM CST" temp="55" text="Mostly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="19 Mar 2018" day="Mon" high="56" low="34" text="Mostly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="20 Mar 2018" day="Tue" high="49" low="36" text="Mostly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="21 Mar 2018" day="Wed" high="51" low="30" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="22 Mar 2018" day="Thu" high="56" low="34" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="23 Mar 2018" day="Fri" high="65" low="38" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="32" date="24 Mar 2018" day="Sat" high="69" low="39" text="Sunny"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="25 Mar 2018" day="Sun" high="68" low="45" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="26 Mar 2018" day="Mon" high="69" low="47" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="27 Mar 2018" day="Tue" high="71" low="49" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="28 Mar 2018" day="Wed" high="71" low="49" text="Partly Cloudy"/>
+                <description>

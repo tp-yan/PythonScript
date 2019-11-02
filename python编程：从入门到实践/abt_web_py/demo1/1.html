@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script>
+        function show_text(id,text){
+            document.getElementById(id).innerHTML = text;
+        }
+        function show_color(id,color){
+            document.getElementById(id).style.color = color;
+        }
+    </script>
+    <style>
+        div p {color :#f00;}
+        .py {font-size : 40px}
+        #l1 {width:200px; font-size: 40px}
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <div>World</div>
+    <p class="py">python</p>
+    <label id="l1">test</label>
+    <div>
+        <a href="javascript:void(0);" onclick="javascript:show_text('l1','My First JavaScript');">My First JavaScript</a>
+        <a href="javascript:void(0);" onclick="javascript:show_text('l1','Hello Python');">Hello Python</a>
+
+        <a href="javascript:void(0);" onclick="javascript:show_color('l1','#f00');">red</a>
+        <a href="javascript:void(0);" onclick="javascript:show_color('l1','#0f0');">green</a>
+    </div>
+</body>
+</html>

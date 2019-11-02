@@ -1,0 +1,5 @@
+In Python you can do everything you want
+In Python you can calculate many...
+In Python you can open and close file
+In Python you can use dictinary and list
+In Python you can use lots of moduals

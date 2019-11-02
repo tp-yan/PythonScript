@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <script>
+        function init(){
+            http = new XMLHttpRequest(); // Ajax请求
+            http.open("get","/show",false);
+            http.send(null);
+            msg = http.responseText;
+            document.getElementById("sMsg").innerHTML = msg;
+            document.getElementById("jMsg").innerHTML = "JavaScript Message"
+
+        }
+    </script>
+</head>
+<body onload="init()">
+    Testing <br>
+    <span id="hMsg">Html Message</span><br>
+    <!-- 由JavaScript脚本动态生成的内容 -->
+    <span id="jMsg"></span><br> 
+    <!-- 由Ajax请求，从服务器返回的内容 -->
+    <span id="sMsg"></span><br>
+</body>
+</html>
