@@ -44,4 +44,6 @@
 - m_struct:利用struct模块来操作字节类型，以及字节类型与任意其他类型的转换
 - hashlib_md5_sha1：哈稀函数（摘要函数）hashlib模块对MD5 SHA1的实现
 - m_hmac:hmac模块实现了Hmac算法，该算法比我们自定义的加盐Hash算法更标准和安全
+- m_contextlib：实现上下文管理用于with语句。包括：@contextmanager和@closing等decorator
+- m_urllib：urllib模块提供了一系列用于操作URL的功能，如GET和POST请求、Proxy等
 
