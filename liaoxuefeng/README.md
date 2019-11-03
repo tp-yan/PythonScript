@@ -33,10 +33,15 @@
 - pickle_serialization：python序列化之pickle与json
 - m_multiprocessing：子进程、多进程通信、外部子进程
 - multi_threading：多线程与锁以及GIL锁（python多线程只能使用一个核，无法在多个核上切换线程）
+- distributed_process_master：分布式进程之服务进程master：负责分发任务，创建Queue通过网络暴露Queue
+- distributed_process_worker：分布式进程之工作进程worker：负责接收执行任务，通过网络获得Queue，返回结果
+- thread_local：线程局部变量，通过同一个ThreadLocal对象绑定线程自己的独立属性（局部变量），互不影响 
 - regex：正则表达式：匹配字符串，切分字符串，分组，贪婪匹配，编译
 - m_datetime：关于日期时间类datetime的诸多操作：时间戳，与str的转换，时区转换，时间加减等
 - args_2_py_script：从控制台输入参数的2种方式
 - m_collections：集合模块，包括：namedtuple命名tuple，deque双向列表，OrderedDict，defaultdict，ChainMap，Counter
 - m_base64：利用Base64编码将不可视的二进制数据编码为可视化（字符）的二进制数据（可用文本编辑器打开）
 - m_struct:利用struct模块来操作字节类型，以及字节类型与任意其他类型的转换
+- hashlib_md5_sha1：哈稀函数（摘要函数）hashlib模块对MD5 SHA1的实现
 - m_hmac:hmac模块实现了Hmac算法，该算法比我们自定义的加盐Hash算法更标准和安全
+
