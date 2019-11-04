@@ -46,4 +46,11 @@
 - m_hmac:hmac模块实现了Hmac算法，该算法比我们自定义的加盐Hash算法更标准和安全
 - m_contextlib：实现上下文管理用于with语句。包括：@contextmanager和@closing等decorator
 - m_urllib：urllib模块提供了一系列用于操作URL的功能，如GET和POST请求、Proxy等
+- XMLParser:解析XML文档的工具和生成XML
+- m_HTMLParser：解析HTML字符串
+
+
+
+
+
 
