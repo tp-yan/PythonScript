@@ -48,8 +48,8 @@
 - m_urllib：urllib模块提供了一系列用于操作URL的功能，如GET和POST请求、Proxy等
 - XMLParser:解析XML文档的工具和生成XML
 - m_HTMLParser：解析HTML字符串
-
-
+- pillow：使用第三方图像处理库PIL，用于操作和绘制图像，比如生成验证码图片
+- m_requests:处理URL资源的第三方库requests，比python自带的urllib更方便
 
 
 
