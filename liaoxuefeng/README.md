@@ -50,6 +50,8 @@
 - m_HTMLParser：解析HTML字符串
 - pillow：使用第三方图像处理库PIL，用于操作和绘制图像，比如生成验证码图片
 - m_requests:处理URL资源的第三方库requests，比python自带的urllib更方便
+- m_chardet：检测 bytes 编码格式的工具
+- m_psutil：python获取系统软硬件信息最方便的工具
 
 
 
