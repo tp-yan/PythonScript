@@ -52,7 +52,8 @@
 - m_requests:处理URL资源的第三方库requests，比python自带的urllib更方便
 - m_chardet：检测 bytes 编码格式的工具
 - m_psutil：python获取系统软硬件信息最方便的工具
-
+- tkinter_GUI:使用tkinter库进行GUI编程
+- m_turtle：海龟绘图
 
 
 
